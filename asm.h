@@ -3,6 +3,7 @@
 
 inline void hlt()
 {
+	asm volatile("cli")
 	asm volatile("hlt");
 }
 
